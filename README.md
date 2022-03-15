@@ -55,7 +55,7 @@ Function: end program
 hw6：
 Write a program that uses Binary Search Tree (BST) for word statistics, and each node stores the word and the number of words.
 The BST must satisfy that in each node, all node strings in the left subtree are smaller than this node string, and all node strings in the right subtree are larger than this node string.
-If the input word is a new word, than insert, if it is already in BST, add or decrease the number of words.
+If the input word is a new word, then insert, if it is already in BST, add or decrease the number of words.
 Use inorder traversal to output the content of BST.
 After converting the BST into an array, sort it.
 The comparison method is that the number of words with a large number is in the front, and the small number is in the back
