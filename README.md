@@ -1,4 +1,4 @@
-str_sub：
+str_sub:
 Write a program, use the following method: 
 ./sed [ -g(optional) ] [ -source(required) ] [ -target(required) ] 
 The program reads from the standard input line by line, and the first occurrence of each line is Where the [ -source ] string is replaced by the [ -target ] string. 
@@ -9,7 +9,7 @@ If there are two parameters, the parameters are [ -source ] and [ -target ] in s
 If there are three input parameters, the parameters are [ -g ], [ -source ] and [ -target ] in sequence. 
 Any Undefined operations need to print a help message.
 
-add_list：
+add_list:
 Please complete an address book program that can record name, email, web link and phone number and includes the following functions:
 Create an address book
 According to the program parameter argv[1], create a new address book of N contacts
@@ -52,7 +52,7 @@ exit the program (q, quit)
 Format: q , quit
 Function: end program
 
-BST：
+BST:
 Write a program that uses Binary Search Tree (BST) for word statistics, and each node stores the word and the number of words.
 The BST must satisfy that in each node, all node strings in the left subtree are smaller than this node string, and all node strings in the right subtree are larger than this node string.
 If the input word is a new word, then insert, if it is already in BST, add or decrease the number of words.
@@ -60,3 +60,10 @@ Use inorder traversal to output the content of BST.
 After converting the BST into an array, sort it.
 The comparison method is that the number of words with a large number is in the front, and the small number is in the back
 If the number is the same, the string with the smaller ASCII code is in front.
+
+in_post:
+The program reads from standard input line by line,
+If the input content is Infix, the output is Postfix conversion result
+The input content is Postfix and the calculation result is output
+The first line of each input is "p: " or "i: " to indicate whether the input is postfix or infix.
+The length of each line does not exceed 1024 bytes.
