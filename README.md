@@ -67,3 +67,24 @@ If the input content is Infix, the output is Postfix conversion result
 The input content is Postfix and the calculation result is output
 The first line of each input is "p: " or "i: " to indicate whether the input is postfix or infix.
 The length of each line does not exceed 1024 bytes.
+
+linked_list:
+Please read the word from the standard input, construct the corresponding Linked List,
+And use this to count the number of words (Term Counting), for example, enter:
+apple
+banana
+apple
+apple
+banana
+cake
+cake
+-apple
+cake
+
+Output (printed in order according to word occurrence time):
+2 apples
+2 bananas
+3 cakes
+
+hash_map:
+Use HashMap (HashTable) to count word frequencies, and the input method is the same as in BST.
